@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'FLŌ Restaurant — Riga',
-  description: 'A modern bistro on the banks of the Daugava.',
+  title: 'Yerevan Pandok — Armēņu virtuve Jūrmalā',
+  description: 'Autentiska armēņu ēdienkarte. Mājīga atmosfēra pie jūras.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="lv">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

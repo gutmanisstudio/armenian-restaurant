@@ -3,21 +3,36 @@
 @tailwind utilities;
 
 :root {
-  --red: #C8102E;
-  --red-dark: #8B0A1F;
-  --white: #FDFCFA;
-  --cream: #F8F4EF;
-  --black: #0E0A08;
-  --gray: #6B6460;
+  --red: #6B3A2A;
+  --red-dark: #4A2418;
+  --white: #FDFAF5;
+  --cream: #F5EFE4;
+  --black: #2C1810;
+  --gray: #8C7B6B;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-body { background: #FDFCFA; color: #0E0A08; overflow-x: hidden; font-family: 'DM Sans', sans-serif; }
+body { background: #FDFAF5; color: #2C1810; overflow-x: hidden; font-family: 'DM Sans', sans-serif; }
 ::-webkit-scrollbar { width: 3px; }
-::-webkit-scrollbar-track { background: #F8F4EF; }
-::-webkit-scrollbar-thumb { background: #C8102E; }
-::selection { background: #C8102E; color: #FDFCFA; }
+::-webkit-scrollbar-track { background: #F5EFE4; }
+::-webkit-scrollbar-thumb { background: #6B3A2A; }
+::selection { background: #6B3A2A; color: #FDFAF5; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a[href^="tel"] {
+  color: inherit;
+  text-decoration: none;
+}
+
+a[href^="mailto"] {
+  color: inherit;
+  text-decoration: none;
+}
 
 /* ── MOBILE ── */
 @media (max-width: 768px) {
